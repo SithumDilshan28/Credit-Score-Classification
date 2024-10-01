@@ -10,7 +10,7 @@ st.set_page_config(page_title="Credit Score Prediction", layout="wide", page_ico
 # Sidebar with additional options
 with st.sidebar:
     st.title("💳 Credit Score Prediction")  # Adding a title to the sidebar
-    #st.image("expert_banner.png", use_column_width=True)  # You can use a custom image here
+    st.image("expert_banner.png", use_column_width=True)  # You can use a custom image here
     st.header("About")
     st.write(
         """
@@ -130,3 +130,9 @@ with st.container():
             st.success("Predicted Credit Score: **Standard**")
 
     st.markdown('</div>', unsafe_allow_html=True)
+
+
+
+# Add footer with social media links
+st.markdown("---")
+st.markdown("💬 Connect with us: [LinkedIn](https://www.linkedin.com/) | [Twitter](https://twitter.com/) | [GitHub](https://github.com/)")
